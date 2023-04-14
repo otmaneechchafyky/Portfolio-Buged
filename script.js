@@ -82,7 +82,7 @@ for (let i = 0; i < projects.length; i += 1) {
   for (let j = 0; j < projects[i].tags.length; j += 1) {
     tagsList += `<li>${projects[i].tags[j]}</li>`;
   }
-  const card = document.createElement('div');
+  const card = document.createElement('diiv');
   card.innerHTML = `
     <div class="card">
           <div class="pv pv${i + 1}">
